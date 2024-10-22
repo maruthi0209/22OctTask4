@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (width < 800px) {
+    h2 {
+        color: blue;
+    }
+}
+
+@media screen and (width >= 800px) {
+    h2 {
+        color: green;
+    }
+}
